@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+ 
+    background-color: #f7e9dc;
+}
+.balance{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ec755d;
+    border-radius: 10px;
+    width: auto;
+    padding: 5px 5px 5px ;
+
+}
+p{
+    margin: 8px;
+    color: #f7e9dc;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 8px;
+}
+h2{
+    text-align: center;
+    color: #342116;
+    font-family: 'Crimson Text', serif;
+ ;
+  
+}
+
+
+.content{
+    padding-top: 4%;
+    width: 400px;
+    margin: auto;
+    height: 500px;
+
+}
+#myChart{
+    margin: 15px;
+}
+
+.chart{
+    background-color: #fff;
+    margin-top: 5%;
+    border-radius: 10px;
+   
+}
+hr{
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px ;
+}
+
+p{
+    color: #342116;
+}
+
+.span1{
+  font-family: 50px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.spane1{
+    color: #fff;
+    font-size: small;
+}
+
+.span2{
+    font-family: 50px;
+    color: #3a2514;
+    font-weight: 900;
+    font-size: 25px;
+  }
+  
+  .spane2{
+      color: #3a2514;
+      font-size: small;
+     
+  }
+
+  .span3{
+    font-weight: 900;
+  }
+
+  @media only screen and (max-width: 375px) {
+    .content{
+    width: 70%;
+    height: 50%;
+    padding-top: 40%;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+    .content{
+    width: 70%;
+    height: 50%;
+    padding-top: 40%;
+  }
+}
+

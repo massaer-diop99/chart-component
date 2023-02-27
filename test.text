@@ -1,0 +1,65 @@
+for (let i = 0; i < days.length; i++) {
+      let date = new Date();
+
+      let datelocal = date.toLocaleString('en', {
+        weekday: 'short',
+      });
+
+      if (days[i] == datelocal.toLowerCase()) {
+        const jourj = days[i];
+        //  console.log(jourj);
+
+        const jourindex = days.findIndex(elem => elem == jourj);
+        // console.log({jourindex});
+
+        backgroundColor[jourindex] = '#76b5bc';
+
+        hoverBackgroundColor[jourindex] = '#b4dfe5';
+      }
+    }
+  }
+
+
+  let backgroundColor = charts.config._config.data.datasets[0].backgroundColor
+
+  let hoverBackgroundColor = charts.config._config.data.datasets[0].hoverBackgroundColor
+  
+  //console.log(charts);
+ 
+ 
+  //console.log(hoverBackgroundColor);
+
+
+     for (let i = 0; i < days.length; i++) {
+       let date = new Date();
+
+      let datelocal = date.toLocaleString('en', {
+        weekday: 'short',
+      });
+
+      if (days[i] == datelocal.toLowerCase()) {
+      
+         const jourj = days[i] ;
+       //  console.log(jourj);
+         
+         const jourindex = days.findIndex(elem => elem == jourj)
+        // console.log({jourindex});
+
+         backgroundColor[jourindex] = "#76b5bc"
+         
+         hoverBackgroundColor[jourindex] = "#b4dfe5"
+        
+         
+        }
+     
+  
+     }
+
+     '#ec755d' ,'#ec755d', '#ec755d','#ec755d', '#ec755d'
+}
+
+
+
+ 
+
+data.map((item) => item.day === c ? '#76b5bc' : '#ec755d' ) 
