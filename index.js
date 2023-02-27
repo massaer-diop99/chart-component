@@ -1,5 +1,5 @@
 
-var url = 'data.json';
+var url = './data.json';
 var request = new XMLHttpRequest();
 request.open('GET', url);
  request.responseType = 'json';
